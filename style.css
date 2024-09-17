@@ -44,6 +44,13 @@ nav {
 
 .hero {
   background-image: url(./images/bgimage.jpg);
-  height: 150vh;
+  height: 100rem;
   background-size: contain;
+  background-repeat: no-repeat;
+  
+}
+
+
+.hero-overlay {
+  
 }
