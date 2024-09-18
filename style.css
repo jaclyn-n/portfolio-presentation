@@ -1,38 +1,35 @@
 * {
-    margin: 0;
-    text-decoration: none;
-    border: none;
-    box-sizing: border-box;
-    overflow-x: hidden;
-  }
+  margin: 0;
+  text-decoration: none;
+  border: none;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
 
 .container {
   width: 80%;
   margin: auto;
-
 }
 
 nav {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    height: 50px;
-    align-items: end;
-    background-color: #A9A5A5;
-    padding-left: 10%;
-    padding-right: 10%;
-    position: relative;
-    
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 50px;
+  align-items: end;
+  background-color: #a9a5a5;
+  padding-left: 10%;
+  padding-right: 10%;
+  position: relative;
 }
 
 .nav-items {
-  display:flex;
+  display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   align-items: end;
-  gap: 20px; 
+  gap: 20px;
 }
-
 
 .nav-text {
   color: #fff;
@@ -42,11 +39,11 @@ nav {
   background-image: url(./images/work_1.jpg);
   height: 100vh;
   background-size: cover;
-  background-position: center; 
+  background-position: center;
   background-repeat: no-repeat;
   display: flex;
   align-items: center;
-  justify-content: center; 
+  justify-content: center;
   background-attachment: fixed;
 }
 
@@ -56,18 +53,15 @@ nav {
   justify-content: center;
   align-items: center;
   padding: 8% 0 0 0;
-
 }
 
 .hero-text {
   font-family: "Abril Fatface", sans-serif;
   font-size: 100px;
   font-weight: 10px;
-  
+
   color: #ffffff;
 }
-
-
 
 .overlay {
   display: flex;
@@ -76,7 +70,7 @@ nav {
   align-items: center;
   height: 100%;
   width: 100%;
-  background-color: rgba(0, 0,0, 0.3);
+  background-color: rgba(0, 0, 0, 0.3);
 }
 
 #about {
@@ -92,10 +86,8 @@ nav {
   width: 70%;
 }
 
-
 .section {
   padding: 7rem 0;
-
 }
 
 .row {
@@ -103,17 +95,14 @@ nav {
   flex-direction: row;
   justify-content: center;
   /* flex-wrap: wrap; */
-   /* margin-right: 15px;
+  /* margin-right: 15px;
   margin-left: 15px;  */
   /* unicode-bidi: isolate; */
   /* padding: 10%; */
-  
 }
 
 .services div {
   width: 50%;
-  
-  
 }
 
 /* .services-border {
@@ -124,15 +113,14 @@ nav {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 15.36px;
   font-weight: 400px;
-  line-height:27.4px;
+  line-height: 27.4px;
   color: #000;
 }
 
-.paragraph p{
+.paragraph p {
   ont-family: "Roboto Mono";
   font-size: 15.36px;
   font-weight: 400px;
-  line-height:27.4px;
+  line-height: 27.4px;
   color: #000;
-  
 }
