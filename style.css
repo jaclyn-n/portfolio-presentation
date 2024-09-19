@@ -9,7 +9,9 @@
 .container {
   width: 80%;
   margin: auto;
+  
 }
+
 
 .about-container {
   display: grid;
@@ -38,7 +40,7 @@ nav {
   justify-content: space-between;
   height: 50px;
   align-items: end;
-  background-color: #a9a5a5;
+  background-color: rgba(0,0,0, 0.3);
   padding-left: 10%;
   padding-right: 10%;
   position: relative;
@@ -57,16 +59,17 @@ nav {
 }
 
 .hero {
-  background-image: url(./images/work_1.jpg);
+  background-image: url(./images/herobg.jpg);
   height: 100vh;
   width: 100%;
-  background-size: cover;
-  background-position: center;
+  background-size: center;
+  background-position: top;
   background-repeat: no-repeat;
   display: flex;
   align-items: center;
   justify-content: center;
   background-attachment: fixed;
+  /* object-fit: contain; */
 }
 
 .hero-info {
@@ -97,7 +100,7 @@ nav {
 .about {
   width: 100%;
   padding: 4rem;
-  background-color: aqua;
+  background-color: #5E7880;
 }
 
 .about-cont {
@@ -111,18 +114,34 @@ nav {
   justify-content: space-around;
 }
 
+.slide-top {
+	-webkit-animation: slide-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	 animation: slide-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+.skills-container {
+  display: flex;
+  justify-content: space-between;
+  /* width: 100%; */
+  align-items: flex-start;
+  /* padding: 30px 30px; */
+  background-color: #5E7880;
+}
+
 .skill-head {
-  padding-top: 30px;
-  padding-bottom: 20px;
+  /* padding-top: 30px;
+  padding-bottom: 20px; */
   font-size: 50px;
   font-weight: 700;
+  align-items: center;
 }
-.skills-cont {
+/* .skills-container {
   display: flex;
   justify-content: space-between;
   width: 80%;
   align-items: flex-start;
-}
+   */
+
 .container.skills-cont {
   margin-top: 4rem;
 }
@@ -151,6 +170,7 @@ nav {
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  height: 20px;
 }
 
 .progress-bar {
@@ -255,7 +275,7 @@ nav {
 }
 
 .paragraph p {
-  ont-family: "Roboto Mono";
+  font-family: "Roboto Mono";
   font-size: 15.36px;
   font-weight: 400px;
   line-height: 27.4px;
@@ -264,7 +284,7 @@ nav {
 
 .spikes {
   position: relative;
-  background: #2c5594;
+  background: #5E7880;
   height: 55vh;
 }
 
