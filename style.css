@@ -10,10 +10,7 @@
 .container {
   width: 80%;
   margin: auto;
-  
 }
-
-
 
 nav {
   display: flex;
@@ -21,12 +18,11 @@ nav {
   justify-content: space-between;
   height: 50px;
   align-items: end;
-  background-color: rgba(0,0,0, 0.6);
+  background-color: rgba(0, 0, 0, 0.6);
   padding-left: 10%;
   padding-right: 10%;
   position: relative;
-  padding-bottom: 6px;
-  
+  padding-bottom: 5px;
 }
 
 .nav-items {
@@ -79,18 +75,16 @@ nav {
   height: 100vh;
   /* width: 100vw; */
   /* background-color: rgba(0, 0, 0, 0.5);#7F7F7F */
-  
 }
 
 .hero-button {
   border-radius: 3px;
-  background-color: #00325B;
-
+  background-color: #00325b;
 }
 .about {
   width: 100%;
   padding: 4rem;
-  background-color: #B2B2B2;
+  background-color: #b2b2b2;
 }
 
 .about-cont {
@@ -119,14 +113,12 @@ nav {
   flex-direction: column;
   justify-content: center;
   gap: 20px;
-
 }
 
 .about-head {
   font-size: 40px;
   font-weight: 300;
   align-items: center;
-
 }
 
 .about-paragraph {
@@ -137,12 +129,11 @@ nav {
 .button-container {
   padding: 10px;
   gap: 30px;
- display: flex;
- flex-direction: row;
- /* justify-content: space-around; */
- align-items: center;
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-around; */
+  align-items: center;
 }
-
 
 .about-button {
   justify-content: space-around;
@@ -155,27 +146,11 @@ nav {
   /* display: flex;
   flex-direction: row; */
   justify-content: center;
-
 }
-  
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .slide-top {
-	-webkit-animation: slide-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-	 animation: slide-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  -webkit-animation: slide-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: slide-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
 }
 
 .skills-container {
@@ -197,7 +172,6 @@ nav {
   font-weight: 700;
   align-items: center;
 }
-
 
 .container.skills-cont {
   margin-top: 4rem;
@@ -245,7 +219,6 @@ nav {
   border-radius: 30px;
 }
 .progress2 {
-
   width: 60%;
   background-color: rgb(96, 96, 99);
   height: 5px;
@@ -303,7 +276,7 @@ nav {
 
 .inner-sect:hover {
   border-color: black;
-  color: #728096
+  color: #728096;
 }
 
 .row {
@@ -344,14 +317,13 @@ nav {
 
 .spikes {
   position: relative;
-  background: #B2B2B2;
-  height:50vh;
+  background: #b2b2b2;
+  height: 50vh;
   overflow: hidden;
 }
 
-
-footer{
-  padding-top:4rem;
+footer {
+  padding-top: 4rem;
 }
 
 .spikes::after {
@@ -370,7 +342,7 @@ footer{
 
 .socials {
   margin: 4rem 0;
-  margin-bottom:2rem;
+  margin-bottom: 2rem;
   display: flex;
   justify-content: center;
   gap: 30px;
@@ -380,7 +352,7 @@ footer{
   align-items: center; */
 }
 
-.socials i{
+.socials i {
   font-size: 2rem;
   overflow-y: hidden;
 }
@@ -390,8 +362,6 @@ footer{
   flex-direction: column;
   /* justify-content: center; */
   align-items: center;
-  
-
 }
 
 .footer2 {
