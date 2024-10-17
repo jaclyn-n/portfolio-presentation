@@ -13,34 +13,89 @@
       referrerpolicy="no-referrer"
     />
     <script src="https://cdn.tailwindcss.com"></script>
+    <script src="./script.js"></script>
   </head>
   <body class="px-20">
     <section id="container">
-    <div>
-      <header class="text-center">
-        <h2>Je</h2>
-      </header>
-    </div>
-    <nav>
-     <a href="#about">About Me</a>
-     <a href="#skills">Skills</a>
-     <a href="#contact">Contact</a>
-    </nav>
-    <div>
-      <h3>Jacqueline Offei</h3>
-      <p>A junior backend Developer</p>
-    </div>
-    <section id="about">
       <div>
-        <h4>About Me</h4>
-        <p>skills, experience</p>
+        <header class="text-center">
+          <div>
+            <h2 class="text-2xl">Je</h2>
+          </div>
+        </header>
+      </div>
+      <nav>
         <div>
-          <button>View CV</button>
-          <button>Hire Me</button>
+          <a href="#about">About Me</a>
+          <a href="#skills">Skills</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </nav>
+      <div class="hero">
+        <div class="text-center px-30">
+          <h3>Jacqueline Offei</h3>
+          <p>
+            A junior backend Developer, with a knack for continuous learning
+          </p>
         </div>
       </div>
+      <section class="flex flex row justify-around">
+        <div>
+          <div>
+            <img src="./images/Untitled design.png" alt="about image" />
+          </div>
+        </div>
+        <div class="tabs">
+          <div>
+            <button class="tablink" onclick="openTab(event, 'about')">ABOUT ME</button>
+            <button class="tablink" onclick="openTab(event, 'about')">SKILLS</button>
+            <button class="tablink" onclick="openTab(event, 'about')">EXPERIENCE</button>
+          </div>
+          <div id="about-me" class="tabcontent">
+            <h4>ABOUT ME</h4>
+            <P></P>
+          </div>
+          <div id="skills" class="tabcontent">
+            <h4>SKILLS</h4>
+            <P></P>
+          </div>
+          <div id="experience" class="tabcontent">
+            <h4>EXPERIENCE</h4>
+            <P></P>
+          </div>
+          <div>
+            <button class="btn-view">View CV</button>
+            <button class="btn-hire">Hire Me</button>
+          </div>
+        </div>
+      </section>
+      <section id="Projects"></section>
+      <section>
+        <footer>
+          <div class="contact-details font-weight: 500;">
+            <p>Email: offeijacqueline@gmail.com</p>
+            <p></p>
+            <p>Phone number: 0208737560</p>
+            <p></p>
+            <p>Address: 301 Awoshie Market Street</p>
+            <p></p>
+          </div>
+
+          <div>
+            <i class="fa-brands fa-linkedin"></i>
+            <i class="fa-brands fa-github"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-regular fa-envelope"></i>
+          </div>
+          <div></div>
+          <div class="footer2 row">
+            <p>
+              Copyright ©2024 All rights reserved | This template was an ardous
+              task
+            </p>
+          </div>
+        </footer>
+      </section>
     </section>
-    <section id="Projects"></section>
-  </section>
   </body>
 </html>
