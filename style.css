@@ -30,7 +30,6 @@ nav {
   gap: 40px;
 }
 
-
 .nav-after {
   height: 10px;
   width: 100%;
@@ -45,9 +44,6 @@ nav {
   height: 80vh;
   background: rgba(255, 255, 255, 0.3);
   backdrop-filter: blur(10px);
-}
-
-.hero {
 }
 
 .hero-text {
@@ -107,12 +103,6 @@ nav {
   padding: 6px 12px;
   border: 0px solid #ccc;
   border-top: none;
-}
-
-.tablink {
-}
-
-#about-me {
 }
 
 .buttons {
