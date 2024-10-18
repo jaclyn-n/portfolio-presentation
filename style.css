@@ -24,6 +24,18 @@ nav {
   row-gap: 2rem;
 }
 
+.nav-items {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 40px;
+}
+
+.nav-after {
+  height: 10px;
+  width: 100%;
+  background: linear-gradient(to right, #a1a0c2 #94804b);
+}
+
 #container {
   overflow: auto;
   border-radius: 16px;
@@ -35,8 +47,12 @@ nav {
 }
 
 .hero {
-  height: 50vh;
-  padding: 70px;
+}
+
+.hero-text {
+  padding: 50px;
+  display: flex;
+  align-items: center;
 }
 
 .hero h3 {
@@ -45,10 +61,26 @@ nav {
   line-height: normal;
 }
 
-.tab {
+.tabs {
   overflow: hidden;
-  border: 1px solid #ccc;
-  background-color: #f1f1f1;
+  padding: 10px;
+}
+
+.flex-row {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.flex-row .about-image {
+  flex: 1;
+  max-width: 200px; /* Adjust image size */
+}
+
+.flex-row .about-text {
+  flex: 2;
+  max-width: 600px; /* Adjust text size */
 }
 
 .tab button {
@@ -62,7 +94,7 @@ nav {
 }
 
 .tab button:hover {
-  background-color: #ddd;
+  background-color: black;
 }
 
 .tab button.active {
@@ -72,6 +104,34 @@ nav {
 .tabcontent {
   display: none;
   padding: 6px 12px;
-  border: 1px solid #ccc;
+  border: 0px solid #ccc;
   border-top: none;
+}
+
+.tablink {
+}
+
+#about-me {
+}
+
+.buttons {
+  margin: 30px;
+  display: flex;
+  align-items: end;
+}
+
+.btn-view {
+  background-color: #585770;
+  color: white;
+  padding: 8px;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+.btn-hire {
+  background-color: #e0bf89;
+  color: white;
+  padding: 8px;
+  margin: 10px;
+  border-radius: 5px;
 }

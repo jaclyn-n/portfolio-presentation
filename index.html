@@ -25,21 +25,25 @@
         </header>
       </div>
       <nav>
-        <div>
+        <div class="nav-items">
           <a href="#about">About Me</a>
           <a href="#skills">Skills</a>
           <a href="#contact">Contact</a>
         </div>
       </nav>
-      <div class="hero">
-        <div class="text-center px-30">
-          <h3>Jacqueline Offei</h3>
+      <div class="nav-after"></div>
+      <div class="hero flex flex row justify-around">
+        <div class="text-center px-30 hero-text ">
+         <div> <h3>Jacqueline Offei</h3>
           <p>
-            A junior backend Developer, with a knack for continuous learning
+            A junior backend Developer, with a knack for continuous learning</div>
           </p>
         </div>
+        <div>
+          <img src="./images/heroBg.png" alt="hero-bg" />
+        </div>
       </div>
-      <section class="flex flex row justify-around">
+      <section class="flex flex row justify-around flex-row">
         <div>
           <div>
             <img src="./images/Untitled design.png" alt="about image" />
@@ -47,24 +51,40 @@
         </div>
         <div class="tabs">
           <div>
-            <button class="tablink" onclick="openTab(event, 'about')">ABOUT ME</button>
-            <button class="tablink" onclick="openTab(event, 'about')">SKILLS</button>
-            <button class="tablink" onclick="openTab(event, 'about')">EXPERIENCE</button>
+            <button class="tablink" onclick="openTab(event, 'about-me')">
+              ABOUT ME
+            </button>
+            <button class="tablink animate-pulse" onclick="openTab(event, 'skills')">
+              SKILLS
+            </button>
+            <button class="tablink animate-pulse" onclick="openTab(event, 'experience ')">
+              EXPERIENCE
+            </button>
           </div>
-          <div id="about-me" class="tabcontent">
+          <div class="about-text" class="tabcontent">
             <h4>ABOUT ME</h4>
-            <P></P>
+            <span>
+              Hello! I'm Jacqueline Offei, a Junior Backend Developer with a passion for problem-solving and continuous learning. My tech journey started with curiosity in the frontend, which quickly expanded into building secure backend systems.
+              
+              Though still early in my career, I have a good understanding of backend technologies like Node.js, Express.js, and MongoDB. My exposure to frontend tools also helps me appreciate the complete web development process.
+              
+              When I'm not coding, I love spending time at arcades! Feel free to explore my portfolio and reach out if you'd like to collaborate or chat about new opportunities.
+            </span>
           </div>
           <div id="skills" class="tabcontent">
             <h4>SKILLS</h4>
-            <P></P>
+            <p>lorem 10</p>
           </div>
           <div id="experience" class="tabcontent">
             <h4>EXPERIENCE</h4>
-            <P></P>
+            <p>Lorem ipsum dolor sit amet.</p>
           </div>
-          <div>
-            <button class="btn-view">View CV</button>
+          <div class="buttons">
+            <a
+              href="./files/Jacqueline Offei.Resume.docx.pdf"
+              target="_blank">
+              <button class="btn-view">View CV</button>
+            </a>
             <button class="btn-hire">Hire Me</button>
           </div>
         </div>
