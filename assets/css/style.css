@@ -1,0 +1,248 @@
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 71px;
+    align-items: center;
+    background-color: #587E8A;
+
+}
+
+.nav-items {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 70%;
+}
+
+.text-white{
+    color: white;
+}
+
+.hero {
+    background-image: url('../images/Black\ and\ Beige\ Minimal\ Professional\ Portfolio\ Presentation\ \(5\).png');
+    height: 100vh;
+    background-size: cover;
+    padding-left: 10%;
+}
+
+.hero_info {
+    height: 60%;
+    padding-top: 10%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.title {
+    font-size: 50px;
+    font-style: italic;
+}
+
+.btn {
+    height: 53px;
+    padding: 16px 24px;
+    border-radius: 4px;
+}
+
+.btn-blue {
+    background-color:#587E8A;
+    color: white;
+}
+
+.btn-white {
+    color: #587E8A;
+    background-color: white;
+}
+
+.about-us {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.about-us-image {
+    background-image: url('../images/Untitled\ design\ \(4\).png');
+    background-position: center;
+    background-size: cover;
+}
+
+.font-span {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.service-card {
+    background: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+}
+
+.portfolio-item {
+    position: relative;
+    overflow: hidden;
+    
+}
+
+.portfolio-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(98, 199, 206, 0.9);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.portfolio-item:hover .portfolio-overlay {
+    opacity: 1;
+}
+
+.pricing-card {
+    background: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.pricing-card.featured {
+    transform: scale(1.05);
+    border: 2px solid #0779E4;
+}
+
+.pricing-card ul {
+    list-style: none;
+    padding: 0;
+}
+
+.pricing-card ul li {
+    margin: 0.5rem 0;
+    color: #666;
+}
+
+.blog-card {
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.blog-card:hover {
+    transform: translateY(-5px);
+}
+
+.contact-form input,
+.contact-form textarea {
+    background: white;
+    border: 1px solid #ddd;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    outline: none;
+    border-color: #0779E4;
+}
+
+.social-links a {
+    transition: color 0.3s ease;
+}
+
+.pricing-section {
+    background-color: #f8f9fa;
+}
+
+.pricing-plan {
+    background: white;
+    border-radius: 10px;
+    padding: 2rem;
+    box-shadow: 0 2px 15px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+    text-align: center;
+}
+
+.pricing-plan:hover {
+    transform: translateY(-10px);
+}
+
+.pricing-plan.featured {
+    transform: scale(1.05);
+    border: 2px solid #587E8A;
+    position: relative;
+    z-index: 1;
+}
+
+.plan-header {
+    margin-bottom: 2rem;
+}
+
+.plan-name {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+.plan-price {
+    font-size: 2.5rem;
+    color: #587E8A;
+    font-weight: bold;
+}
+
+.plan-price .currency {
+    font-size: 1.5rem;
+    vertical-align: super;
+}
+
+.plan-price .period {
+    font-size: 1rem;
+    color: #666;
+}
+
+.plan-features {
+    list-style: none;
+    padding: 0;
+    margin: 2rem 0;
+}
+
+.plan-features li {
+    padding: 0.8rem 0;
+    color: #666;
+    border-bottom: 1px solid #eee;
+}
+
+.plan-button {
+    background-color: #587E8A;
+    color: white;
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    width: 100%;
+}
+
+.plan-button:hover {
+    background-color: #456670;
+    transform: translateY(-2px);
+}
+
+
+.footer{
+    background-color: #1c4957;
+}

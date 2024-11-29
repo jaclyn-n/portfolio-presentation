@@ -1,154 +1,398 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="./style.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <script src="https://cdn.tailwindcss.com"></script>
-</head>
-<body>
-  <nav>
-    <h2>Jaqueline.</h2>
-    <div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="assets/css/reset.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+
+  <body>
+    <nav class="fixed right-0 left-0">
+      <h4 class="text-white">Ja.Offei</h4>
       <div class="nav-items">
-        <a href="#" class="nav-text">Home</a>
-        <a href="#" class="nav-text">About</a>
-        <a href="#" class="nav-text">Service<a>
-        <a href="#" class="nav-text">Projects<a>
-        <a href="#" class="nav-text">Contact</a>
-        </div>
-    </div>
-  </nav>
-  <section class="hero background-blend-mode: overlay;">
-    <div class="container overlay">
-    <div class="hero-info hero-text">
-      <h4>
-        Jacqueline Offei
-      </h4>
-      <span> A Web developer</span>
-    </div>
-    <button class="hero-button"> Hire me</button>
-    </div>
-  </section>
-  <section class="about">
-    
-        <div class="about-container">
-          <div class="about-image">
-            <img src="./images/about (2).jpg" alt="about-image">
-          </div>
-          <div class="about-description">
-            <h3 class="about-head">About me</h3>
-            <span class="about-paragraph">Hiii... I'm  Jacqueline Offei. </span>
-            <p class="about-paragraph">I am a Web Developer with about 5 years of professional experience, 
-              specializing in creating adaptable and useer-centric sloutions. </p>
-            <p class="about-paragraph">My diverse projects have sharpened my ability to uderstand and anticipate client needss, enabling me to deliver  tailored and effective outcomes </p>
-           <div class="button-container">
-            <button class="about-button"> Download CV</button> 
-            <button class="about-button"> View Works</button>
-           </div>
-          </div>
-            
-        </div>
-  
-  </section>
-  <section class="skills-container">
-    <div class="soft-skills-container">
-      <h2 class="skill-head">Soft Skills</h2>
-      <div class="skills-text">
-       
-        <p><span>&#10004</span>Project Management</p>
-        <p><span>&#10004</span>Client Interaction</p>
-        <p><span>&#10004</span>Problem Solving</p>
-        <p><span>&#10004</span>Collaboration</p>
-        <p><span>&#10004</span>Adaptability</p>
-        <p><span>&#10004</span>Presentation</p>
+        <a class="text-white" href="#">Home</a>
+        <a class="text-white" href="#">About</a>
+        <a class="text-white" href="#">Services</a>
+        <a class="text-white" href="#">Portfolio</a>
+        <!-- <a class="text-white" href="#">Pricing</a>
+        <a class="text-white" href="#">Blog</a> -->
+        <a class="text-white" href="#">Contact</a>
       </div>
-    </div>
-      <div class="technical-skills-container"> 
-        <h2 class="skill-head">Technical Skills</h2>
-        <div class="skill">
-          <div class="name-figure">
-            <p>JavaScript</p>
-            <p>80%</p>
-          </div>
-          <div class="progress-bar-container">
-            <div class="progress-bar"></div>
-          </div>
-          
-        </div>
-        <div class="skill">
-          <div class="name-figure">
-            <p>CSS</p>
-            <p>60%</p>
-          </div>
-          <div class="progress-bar-container">
-            <div class="progress1"></div>
-          </div>
-        </div>
-        <div class="skill">
-          <div class="name-figure">
-            <p>HTML</p>
-            <p>80%</p>
-          </div>
-          <div class="progress-bar-container">
-            <div class="progress2"></div>
-          </div>
+    </nav>
+    <!--hero section starts here -->
+    <section class="hero">
+      <div class="hero_info">
+        <p>hi there!</p>
+        <h1 class="title text-white">I am <span>Jacqueline Offei</span></h1>
+        <h1 class="title text-white">A Web Developer</h1>
+        <p class="text-white">
+          Far far away, behind the word mountains, far from the countries
+          Vokalia and Consonantia, there live the blind texts.
+        </p>
+        <div class="pt-10">
+          <button class="btn btn-blue ">HIRE ME</button>
+          <button class="btn btn-white">VIEW CV</button>
         </div>
       </div>
-  </section>
-  <section class="container section">
-    <div>
-      <h2 class="service-head">
-        Services
-      </h2>
-    </div>
-    <div class="row services headings paragraph">
-      <div class="inner-sect">
-        <i class="fa-regular fa-paper-plane "></i>
-        <h4> Email design</h4>
-        <p>Lorem ipsum dolor sit amet.</p>
+    </section>
+    <!-- hero section ends here -->
+    <!-- about us section starts here -->
+    <section class="flex flex-row justify-around w-[80%] mx-auto mt-[128px]">
+      <div class="w-[40%]">
+        <div class="h-[464px] w-full about-us-image"></div>
       </div>
-      <div class="inner-sect">
-        <i class="fa-solid fa-desktop"></i>
-        <h4> Web Design</h4>
-        <p>Lorem ipsum dolor sit amet.</p>
+      <div class="w-[40%] about-us">
+        <div class="font-span">
+          <span>ABOUT ME</span>
+          <span>SKILLS</span>
+          <span>EXPERIENCE</span>
+        </div>
+        <h2>my story</h2>
+        <p>
+          My tech journey began with a scholarship program to study web
+          development awarded by the Meltwater Entrepreneurial School of
+          Technology and Generation Ghana in collaboration with the Mastercard
+          Foundation. What started as curiosity in frontend development quickly
+          expanded into building secure and scalable backend systems. While I'm
+          still early in my career, i have an appreciable understanding of both
+          sides in web development
+        </p>
+        <!-- <h3 class="text-2xl font-semibold mb-4 text-[#587E8A] hover:text-[#456670] transition-colors duration-300">I have been doing web design & development since I was 18 years old</h3> -->
+        <p>
+          I believe that teamwork is crucial in software development, which is
+          why I actively collaborate with frontend developers, designers, and
+          project managers. I thrive in team environments and understand the
+          need to be adaptable and patient in a team. I am committed to
+          continuous learning and staying updated with the latest industry
+          trends to enhance my contributions and foster innovation.
+        </p>
       </div>
-      <div class="inner-sect">
-        <i class="fa-solid fa-mobile"></i>
-        <h4> Mobile Design</h4>
-        <p>Lorem ipsum dolor sit amet.</p>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services-section mt-20 py-16 bg-gray-100">
+      <div class="w-[80%] mx-auto">
+        <h2 class="text-center text-3xl font-bold mb-12">My Services</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div class="service-card">
+            <i class="fas fa-code text-4xl text-blue-500 mb-4"></i>
+            <img src="./assets/images/api.png" alt="api-img" />
+            <h3 class="text-xl font-semibold mb-3">API Development</h3>
+            <p>
+              I specialize in designing and developing RESTful APIs that are
+              scalable and efficient. These APIs serve as the backbone for
+              mobile and web applications, allowing them to communicate
+              seamlessly with the server. By employing industry best practices,
+              I ensure that your APIs are secure, well-documented, and easy to
+              integrate with. This service is essential for businesses looking
+              to enhance their digital offerings.
+            </p>
+          </div>
+          <div class="service-card">
+            <i class="fas fa-paint-brush text-4xl text-blue-500 mb-4"></i>
+            <img src="./assets/images/dataBase.jpg" alt="dataBase-img" />
+            <h3 class="text-xl font-semibold mb-3">Database Management</h3>
+            <p>
+              Effective database management is critical for any backend system.
+              I provide comprehensive services including database design,
+              optimization, and maintenance to ensure your data is stored
+              efficiently and is easily accessible. Utilizing technologies like
+              NoSQL, I tailor the database solution to meet your specific needs,
+              ensuring you can scale as your business grows while maintaining
+              performance and reliability.
+            </p>
+          </div>
+          <div class="service-card">
+            <i class="fas fa-mobile-alt text-4xl text-blue-500 mb-4"></i>
+            <img
+              src="./assets/images/versionControl.png"
+              alt="git-versionControl"
+            />
+            <h3 class="text-xl font-semibold mb-3">Version Control</h3>
+            <p>
+              My expertise extends to implementing complex server-side logic
+              that drives your applications. This includes business logic, data
+              processing, and integration with third-party services. I utilize
+              various programming languages and frameworks to build a stable and
+              efficient backend that meets your project requirements. By
+              focusing on clean code and modular design, I ensure that your
+              application remains maintainable and adaptable to future changes.
+            </p>
+          </div>
+        </div>
       </div>
-      <div class="inner-sect">
-        <i class="fa-solid fa-magnifying-glass"></i>
-        <h4> SEO</h4>
-        <p>Lorem ipsum dolor sit amet.</p>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="portfolio-section py-16">
+      <div class="w-[80%] mx-auto">
+        <h2 class="text-center text-3xl font-bold mb-12">My Portfolio</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <div class="portfolio-item">
+            <img
+              src="assets/images/a (3).png"
+              alt="Project 1"
+              class="w-full h-64 object-cover rounded"
+            />
+            <div class="portfolio-overlay">
+              <h3>Project One</h3>
+              <p>Public Management API Development</p>
+            </div>
+            <div>
+              <h3>Public Management API Development</h3>
+              <p>
+                While interning with Corextreme, i contributed to the
+                development of an api, enabling users to create projects,
+                retrieve archival data, and receive notifications.
+              </p>
+            </div>
+          </div>
+          <div class="portfolio-item">
+            <img
+              src="assets/images/a (2).png"
+              alt="Project 2"
+              class="w-full h-64 object-cover rounded"
+            />
+            <div class="portfolio-overlay">
+              <h3>Project Two</h3>
+              <p>TrackMeet</p>
+            </div>
+            <h3>TrackMeet</h3>
+            <div>
+              <p>
+                In a team of two, I was responsible for handling the backend
+                development of a social ride-coordinating app, focusing on user
+                authentication and data storage. My role included implementing
+                features that connected users and retrieved real time location
+                data
+              </p>
+            </div>
+          </div>
+          <div class="portfolio-item">
+            <img
+              src="assets/images/trackmeet.png"
+              alt="Project 3"
+              class="w-full h-64 object-cover rounded"
+            />
+            <div class="portfolio-overlay">
+              <h3>Project Three</h3>
+              <p>Mobile App</p>
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
-  </section>
-  
-  <section class="spikes">
-    <footer class="container">
-      <div class="contact-details font-weight: 500;">
-        <p>Email: offeijacqueline@gmail.com<p>
-        <p>Phone number: 0208737560<p>
-          <p>Address: 301 Awoshie Market Street<p>
-       
-      </div>
-      <div class="socials"> 
-        <i class="fa-brands fa-linkedin"></i>
-        <i class="fa-brands fa-github"></i>
-        <i class="fa-brands fa-instagram"></i>
-        <i class="fa-regular fa-envelope"></i>
-      </div>
-      <div>
+    </section>
+    <!-- Project Section -->
+    <section >
+      <div class="w-[80%] mx-auto py-16">
+        <div>
+          <h3 class="text-center text-3xl font-bold">Highlighted Projects</h3>
+          <p class="text-center py-5">Showcasing contributions</p>
+        </div>
         
+        <div>
+          <div class="flex items-start mt-8">
+            <div class="w-1/3"> <img src="./assets/images/coree.png" alt="coreXtreme"></div>
+           
+            <div class="w-3/3 p-6"> <h4>Public Management API Development</h4>
+             <p>While interning with Corextreme, i contributed to the development of an api, enabling users to create projects, retrieve archival data, and receive notifications. </p></div>
+           </div>
+        </div>
+        <div>
+          <div class="flex items-start mt-8">
+            
+           
+            <div class="w-3/3 p-6"> <h4>TrackMeet</h4>
+             <p>In a team of two, I was responsible for handling the backend development of a social ride-coordinating app, focusing on user authentication and data storage. My role included implementing features that connected users  and retrieved real time location data. </p></div>
+             <div class="w-1/3"> <img src="./assets/images/trackmeet.png" alt="trackmeet"></div>
+           </div>
+        </div>
+        <div>
+          <div class="flex items-start mt-8">
+            <div class="w-1/3"> <img src="./assets/images/lib.jpg" alt="library"></div>
+           
+            <div class="w-3/3 p-6"> <h4>Library Management App</h4>
+             <p>In a group of four, I contributed to the development of an app that allows users to add books to a library, manage their collections, and perform various other library-related functions.. </p></div>
+           </div>
+        </div>
       </div>
-      <div class="footer2 row">
-        <p> Copyright ©2024 All rights reserved | This template was an ardous task</p>
+    </section>
+
+    <!-- Blog Section -->
+    <!-- <section class="blog-section py-16">
+      <div class="w-[80%] mx-auto">
+        <h2 class="text-center text-3xl font-bold mb-12">Latest Blog Posts</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div class="blog-card">
+            <img
+              src="assets/images/coree.png"
+              alt="corextreme 1"
+              class="w-full h-48 object-cover rounded-t"
+            />
+            <div class="p-6">
+              <h3 class="text-xl font-semibold mb-3">
+                Web Development Trends 2024
+              </h3>
+              <p class="text-gray-600 mb-4">
+                Exploring the latest trends in web development...
+              </p>
+              <-->
+            <!-- </div>
+          </div>
+          <div class="blog-card">
+            <img
+              src="assets/images/trackmeet.png"
+              alt="trackmeet"
+              class="w-full h-48 object-cover rounded-t"
+            />
+            <div class="p-6">
+              <h3 class="text-xl font-semibold mb-3">
+                UI/UX Design Principles
+              </h3>
+              <p class="text-gray-600 mb-4">
+                Essential principles for creating user-friendly interfaces...
+              </p>
+              <a href="#" class="text-blue-500">Read More →</a>
+            </div>
+          </div>
+          <div class="blog-card">
+            <img
+              src="assets/images/blog3.jpg"
+              alt="Blog 3"
+              class="w-full h-48 object-cover rounded-t"
+            />
+            <div class="p-6">
+              <h3 class="text-xl font-semibold mb-3">
+                Mobile-First Development
+              </h3>
+              <p class="text-gray-600 mb-4">
+                Why mobile-first approach is crucial today...
+              </p>
+              <a href="#" class="text-blue-500">Read More →</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> --> 
+
+    <!-- Contact Section -->
+    <section class="contact-section py-16 bg-gray-100">
+      <div class="w-[80%] mx-auto">
+        <h2 class="text-center text-3xl font-bold mb-12">Contact Me</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+          <div class="contact-info">
+            <h3 class="text-xl font-semibold mb-6">Get in Touch</h3>
+            <div class="mb-4">
+              <p class="font-semibold">Email:</p>
+              <p>offeijacqueline@gmail.com</p>
+            </div>
+            <div class="mb-4">
+              <p class="font-semibold">Phone:</p>
+              <p>+233 20</p>
+            </div>
+            <div class="mb-4">
+              <p class="font-semibold">Address:</p>
+              <p>123 Web Dev Street, Digital City, 12345</p>
+            </div>
+          </div>
+          <form class="contact-form">
+            <div class="mb-4">
+              <input
+                type="text"
+                placeholder="Your Name"
+                class="w-full p-3 border rounded"
+              />
+            </div>
+            <div class="mb-4">
+              <input
+                type="email"
+                placeholder="Your Email"
+                class="w-full p-3 border rounded"
+              />
+            </div>
+            <div class="mb-4">
+              <textarea
+                placeholder="Your Message"
+                rows="5"
+                class="w-full p-3 border rounded"
+              ></textarea>
+            </div>
+            <button type="submit" class="btn btn-blue w-full">
+              Send Message
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <!-- <section class="pricing-section py-16">
+      <div class="w-[80%] mx-auto">
+        <h2 class="text-center text-3xl font-bold mb-12">My Pricing Plans</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8"> -->
+          <!-- Basic Plan -->
+          
+
+          <!-- Pro Plan -->
+          <!-- <div class="pricing-plan featured">
+            <div class="plan-header">
+              <h3 class="plan-name">Pro</h3>
+              <div class="plan-price">
+                <span class="currency">$</span>
+                <span class="amount">99</span>
+                <span class="period">/month</span>
+              </div>
+            </div>
+            <ul class="plan-features">
+              <li>10 Web Pages</li>
+              <li>Advanced SEO</li>
+              <li>10 Email Accounts</li>
+              <li>2 Years Support</li>
+            </ul>
+            <button class="plan-button">Choose Plan</button>
+          </div> -->
+
+          <!-- Premium Plan -->
+          <!-- <div class="pricing-plan">
+            <div class="plan-header">
+              <h3 class="plan-name">Premium</h3>
+              <div class="plan-price">
+                <span class="currency">$</span>
+                <span class="amount">149</span>
+                <span class="period">/month</span>
+              </div>
+            </div>
+            <ul class="plan-features">
+              <li>Unlimited Pages</li>
+              <li>Premium SEO</li>
+              <li>Unlimited Emails</li>
+              <li>Lifetime Support</li>
+            </ul>
+            <button class="plan-button">Choose Plan</button> -->
+          <!-- </div>
+        </div>
+      </div> -->
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-8 footer">
+      <div class="w-[80%] mx-auto text-center">
+        <p>© 2024 Jacqueline Offei. All rights reserved.</p>
+        <div class="social-links mt-4">
+          <a href="#" class="mx-2 hover:text-blue-500">LinkedIn</a>
+          <a href="#" class="mx-2 hover:text-blue-500">GitHub</a>
+          <a href="#" class="mx-2 hover:text-blue-500">Twitter</a>
+        </div>
       </div>
     </footer>
-  </section>
-</body>
+
+    <!-- Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/your-kit-code.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
